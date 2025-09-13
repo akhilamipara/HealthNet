@@ -226,45 +226,6 @@ HealthNet/
     └── PORT_CONFIGURATION_GUIDE.md
 ```
 
-## 🔧 API Endpoints
-
-### **User Management**
-```
-POST   /api/user/register     # User registration
-POST   /api/user/login        # User login
-GET    /api/user/profile      # Get user profile
-PUT    /api/user/profile      # Update profile
-```
-
-### **Appointments**
-```
-GET    /api/user/appointments        # Get user appointments
-POST   /api/user/book-appointment    # Book new appointment
-PUT    /api/user/cancel-appointment  # Cancel appointment
-```
-
-### **Doctor Management**
-```
-GET    /api/doctor/list              # Get all doctors
-GET    /api/doctor/profile/:id       # Get doctor profile
-PUT    /api/doctor/profile           # Update doctor profile
-GET    /api/doctor/appointments      # Get doctor appointments
-```
-
-### **Admin Operations**
-```
-GET    /api/admin/appointments       # Get all appointments
-PUT    /api/admin/appointment/:id    # Update appointment status
-GET    /api/admin/dashboard          # Dashboard statistics
-POST   /api/admin/add-doctor         # Add new doctor
-```
-
-### **AI Services**
-```
-POST   /api/chatbot/message          # Chat with AI bot
-POST   /api/ml/diagnose              # AI diagnostic assistance
-GET    /api/ml/health-insights       # Health analytics
-```
 
 ## 🎨 Key Features Implementation
 
