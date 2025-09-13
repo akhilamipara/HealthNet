@@ -81,7 +81,7 @@ Create environment files for each service:
 **Backend (.env)**
 ```env
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/healthnet
+MONGODB_URI=your-mongodb-url
 JWT_SECRET=your-jwt-secret-key
 CLOUDINARY_NAME=your-cloudinary-name
 CLOUDINARY_API_KEY=your-cloudinary-key
