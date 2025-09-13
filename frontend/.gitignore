@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+VITE_API_BASE_URL="http://localhost:8000/api"
+VITE_DJANGO_PORT="8000"
+VITE_BACKEND_URL="http://localhost:4000"
